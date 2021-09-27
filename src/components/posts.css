@@ -1,0 +1,28 @@
+.box{
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 80%;
+}
+
+.author-name {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.author-email {
+    font-size: small;
+    color: gray;
+}
+
+/* On screens that are 992px wide or less */
+@media screen and (max-width: 992px) {
+    .box{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 7px;
+    }
+}

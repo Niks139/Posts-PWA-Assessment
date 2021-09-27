@@ -1,0 +1,35 @@
+.reply-form-input {
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 10px 10px;
+    border-radius: 500px;
+    background-color: rgba(222, 184, 135, 0.836);
+    max-height: 37px;
+    width: 30%;
+}
+
+.reply-form-textarea {
+    outline-width: 0;
+    flex: 1;
+    border: none;
+    padding: 2px 15px;
+    margin: 5px 5x;
+    background-color: rgba(222, 184, 135, 0.836);
+    min-height: 35px;
+    max-height: max-content;
+}
+
+.replier-name {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.replier-email {
+    font-size: small;
+    color: gray;
+}
+
+.replier-desc{
+    font-size: small;
+}
