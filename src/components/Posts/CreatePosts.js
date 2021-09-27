@@ -12,16 +12,10 @@ const CreatePosts = () => {
     //Existing posts array
     const[post,setNewPost] = useState([
         {
-          name: 'Abc',
-          email: 'abc@gmail.com',
-          desc: 'This is abc post',
+          name: 'Nirmit',
+          email: 'p.niks007@gmail.com',
+          desc: 'This is a simple check post',
           id: 1
-        },
-        {
-          name: 'XYz',
-          email: 'zyz@gmail.com',
-          desc: 'This is xyz post',
-          id: 2
         }
       ])      
 
