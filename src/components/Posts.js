@@ -67,7 +67,7 @@ const Posts = (props) => {
     }
 
     return (
-        
+        //Block code to display the posts
         <div className='container box'>
             {props?.name ?(
                     <div className='container-fluid'>
@@ -93,6 +93,7 @@ const Posts = (props) => {
                 null
             ) }
           
+          {/* Show form onClick on Reply Icon */}
            {showForm ? 
            <>
            {handleClick(props.id)}

@@ -7,7 +7,7 @@ const CreatePosts = () => {
     const [name,setName] = useState('')
     const [email,setEmail] = useState('')
     const [postDes,setPostDes] = useState('')
-    const[search,setSearch] = useState('')
+    const [search,setSearch] = useState('')
 
     //Existing posts array
     const[post,setNewPost] = useState([
@@ -54,6 +54,7 @@ const CreatePosts = () => {
         console.log(id)
     }
 
+    // Remove/Delete the post
     const handleRemovePost = (id) => {
         const prevState = post.filter(p => p.id !== id);
         console.log(prevState);
@@ -93,6 +94,7 @@ const CreatePosts = () => {
 
             {/* Pass the values to the Post Component */}
             {
+                // Search funcitonality
                 post?.filter(
                     (val) => {
                         if (search === ""){
